@@ -29,4 +29,5 @@ ATTRIBUTIONS
 
 https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag
 
+https://css-tricks.com/centering-css-complete-guide/
 

@@ -54,8 +54,13 @@ nav {
   height: 80px;
   background-color: #252831;
   text-align:center;
+  position: relative;
 }
 nav h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   margin: auto;
 }
 nav h1 a {
@@ -64,6 +69,7 @@ nav h1 a {
   font-weight: 200;
   letter-spacing: 10px;
   text-transform: uppercase;
+  text-align: center;
 }
 #breadcrumb {
     padding: 10px 40px 16px;
