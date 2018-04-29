@@ -115,6 +115,7 @@ nav h1 a {
   background-color: #3397DB;
   align-items: center;
   overflow: hidden;
+  text-align: center;
 }
 .filter-options h2 {
   color: white;
