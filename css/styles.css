@@ -147,6 +147,7 @@ nav h1 a {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1rem;
+  justify-items: center;
 }
 #restaurants-list li {
   background-color: #fff;
@@ -163,7 +164,6 @@ nav h1 a {
   display: block;
   margin: 0;
   max-width: 100%;
-  min-height: 248px;
   min-width: 100%;
 }
 #restaurants-list li h1 {
@@ -283,4 +283,17 @@ nav h1 a {
 }
 #restaurant-hours td {
   color: #666;
+}
+
+@media screen and (max-width: 350px) {
+#restaurants-list {
+    grid-template-columns: 1fr;
+}
+#restaurants-list li {
+    width: 80%;
+    justify-items: center;
+    min-height: 0;
+    margin: 3%;
+    padding: 0 6% 5%;
+}
 }
