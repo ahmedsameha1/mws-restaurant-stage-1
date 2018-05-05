@@ -42,6 +42,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   grid-template-columns: 1fr;
   justify-items: center;
   align-items: center;
+  padding-top: 130px;
 }
 #footer {
   background-color: #444;
@@ -81,7 +82,6 @@ nav h1 a {
     background-color: #eee;
     font-size: 17px;
     margin: 0;
-    width: calc(50% - 80px);
 }
 
 /* Display list items side by side */
@@ -217,11 +217,6 @@ nav h1 a {
   height: 100%;
   width: 100%;
 }
-.inside #footer {
-  bottom: 0;
-  position: absolute;
-  width: 50%;
-}
 #restaurant-name {
   color: #f18200;
   font-family: Arial,sans-serif;
@@ -270,17 +265,12 @@ nav h1 a {
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: 1fr;
 }
 #reviews-list li {
   border: 2px solid #f3f3f3;
-  display: block;
-  list-style-type: none;
   margin: 0 0 30px;
   overflow: hidden;
   padding: 0 20px 20px;
-  position: relative;
-  width: 85%;
 }
 li p {
   margin: 0 0 10px;
@@ -317,10 +307,15 @@ li p {
 .rating {
   background-color: #f58500;
   color: #fff;
-  width: auto;
+  display: inline-block;
+  padding: 0.3rem;
+  border-radius: 0.2rem;
 }
 @media screen and (min-width: 1501px) {
 #restaurants-list {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+#reviews-list {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 }
@@ -329,10 +324,16 @@ li p {
 #restaurants-list {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+#reviews-list {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 }
 
 @media screen and (max-width: 1200px) {
 #restaurants-list {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#reviews-list {
     grid-template-columns: 1fr 1fr 1fr;
 }
 }
@@ -341,10 +342,16 @@ li p {
 #restaurants-list {
     grid-template-columns: 1fr 1fr;
 }
+#reviews-list {
+    grid-template-columns: 1fr 1fr;
+}
 }
 
 @media screen and (max-width: 400px) {
 #restaurants-list {
+    grid-template-columns: 1fr;
+}
+#reviews-list {
     grid-template-columns: 1fr;
 }
 }
