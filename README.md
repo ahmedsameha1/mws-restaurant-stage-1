@@ -44,3 +44,7 @@ https://stackoverflow.com/q/29580266
 https://stackoverflow.com/a/29580343 by: jpedroribeiro.
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/position
+
+https://css-tricks.com/almanac/properties/p/position/
+
+https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/
