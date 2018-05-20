@@ -50,3 +50,11 @@ https://css-tricks.com/almanac/properties/p/position/
 https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/
 
 https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute
+
+https://jakearchibald.com/2014/offline-cookbook/
+
+https://codelabs.developers.google.com/codelabs/offline/#0
+
+https://www.youtube.com/playlist?list=PLEBgO-a36kFehVe-TVaV9WQL3gusII2qD
+
+https://classroom.udacity.com/nanodegrees/nd001/parts/e4e4c31c-2348-4382-826f-caac197d6f5f
