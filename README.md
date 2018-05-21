@@ -58,3 +58,5 @@ https://codelabs.developers.google.com/codelabs/offline/#0
 https://www.youtube.com/playlist?list=PLEBgO-a36kFehVe-TVaV9WQL3gusII2qD
 
 https://classroom.udacity.com/nanodegrees/nd001/parts/e4e4c31c-2348-4382-826f-caac197d6f5f
+
+https://review.udacity.com/?utm_medium=email&utm_campaign=ret_000_auto_ndxxx_submission-reviewed&utm_source=blueshift&utm_content=reviewsapp-submission-reviewed&bsft_clkid=9051e41d-835e-42fd-86b3-95785a73b281&bsft_uid=f03e2c0f-4242-4d3e-9a2b-dfe4bdbefeca&bsft_mid=fde09dd8-4467-4493-a022-ba6fcaff23d8&bsft_eid=6f154690-7543-4582-9be7-e397af208dbd&bsft_txnid=d5df245f-f334-49d6-bc36-0895b4b8c7e7#!/reviews/1230833
